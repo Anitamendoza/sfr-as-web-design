@@ -1,0 +1,78 @@
+.whatsapp-chat {
+    position: fixed;
+    bottom: 20px;
+    left: 1px;
+    z-index: 1000;
+  }
+  
+  .whatsapp-chat a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .whatsapp-chat a:hover {
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-message {
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .whatsapp-chat:hover .whatsapp-message {
+    display: block;
+  }
+  
+  .whatsapp-message .message-content {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .whatsapp-message a {
+    text-decoration: none;
+  }
+  .whatsapp-chat img {
+    width: 60px; /* Ajusta el tamaño del icono según tu preferencia */
+    height: auto;
+    display: block;
+    border-radius: 50%;
+  }
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px); /* Movimiento hacia arriba */
+    }
+  }
+
+  /*<div class="whatsapp-chat">
+  <a id="whatsapp-button" href="javascript:void(0)">
+    <img src="../img/whatsapp.png" alt="WhatsApp" />
+  </a>
+  <div id="whatsapp-message" class="whatsapp-message">
+    <div class="message-content">
+      <p>Hola, ¿en qué puedo ayudarte?</p>
+    </div>
+    <a id="whatsapp-send" href="https://wa.me/51925294715" target="_blank" rel="noopener noreferrer">
+      Enviar mensaje
+    </a>
+  </div>
+</div>

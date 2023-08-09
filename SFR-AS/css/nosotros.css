@@ -1,0 +1,54 @@
+/* Estilos para la sección "NOSOTROS" */
+ 
+.header-nosotros {
+    background-color: #06719A;
+    color: #fff;
+    padding: 5rem 0; /* Ajusta el padding vertical según tus preferencias */
+    height: 30vh; /* Ajusta la altura del header según tus preferencias */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .nosotros-container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px; /* Ajusta el margen superior según tus preferencias */
+
+      
+  }
+  .text-uppercase {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 20px; /* Espacio entre el título y la imagen */
+  }
+  
+  .nosotros-image {
+    width: 200px; /* Ajusta el tamaño de la imagen según lo necesites */
+    height: auto;
+  }
+  
+/* Estilos para hacer el header responsive */
+@media (max-width: 768px) {
+    .header-nosotros {
+      padding: 30px 0; /* Ajusta el padding para pantallas pequeñas */
+      min-height: 150px; /* Ajusta la altura mínima para pantallas pequeñas */
+    }
+    
+    .text-uppercase {
+      font-size: 1.5rem; /* Ajusta el tamaño del texto para pantallas pequeñas */
+    }
+    
+    .nosotros-image {
+      width: 80px; /* Ajusta el tamaño de la imagen para pantallas pequeñas */
+    }
+  }
+
+  .bg-custom {
+    background-color: #308FBE;
+}
+.bg-valores {
+    background-color: #06719A;
+}

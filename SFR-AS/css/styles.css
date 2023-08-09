@@ -1,0 +1,167 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-info {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 20px; /* Ajusta el tamaño según lo necesites */
+  }
+  
+
+  
+  .logo img {
+    width: 200px; /* Ajusta el tamaño del logo según lo necesites */
+  }
+  
+  /* Otros estilos de la página */
+  /* ... */
+  /* Agrega estilos CSS para el nav */
+nav {
+    background-color: #043B56;
+  }
+  
+  /* Aplica estilos a la lista no ordenada (ul) */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Aplica estilos a los elementos de la lista (li) */
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px; /* Ajusta el espaciado según tus necesidades */
+  }
+  
+  /* Estilo para los enlaces (opcional) */
+  li a {
+    text-decoration: none;
+    color: #043B56;
+  }
+  
+  /* Estilo para los enlaces al pasar el mouse (opcional) */
+  li a:hover {
+    background-color: #043B56;
+  }
+  .small-img {
+    width: 50px; /* Ajusta este valor según el tamaño deseado */
+  }
+  /* Estilos para la barra de navegación */
+.navbar {
+  background-color: #308FBE;
+  display: flex; /* Utilizamos flexbox */
+  align-items: center; /* Centramos verticalmente los elementos */
+  background-color: #308FBE;
+  padding: 10px;
+
+}
+
+/* Ajustar márgenes de los elementos de la barra de navegación */
+.navbar-brand,
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-brand {
+  margin-right: 20px; /* Agrega un margen a la derecha del logo */
+}
+
+.navbar-nav {
+  margin-right: auto; /* Mueve los enlaces al extremo derecho */
+}
+
+.nav-link {
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #eef3f6;
+}
+
+/* Estilos adicionales para resaltar el enlace activo */
+.nav-item.active .nav-link {
+  background-color: #007bff;
+  color: #043B56;
+}
+
+.social-icons .contact-info {
+  margin-right: 10px; /* Ajusta el espacio entre el texto y los iconos */
+}
+
+.language-container {
+  display: flex;
+  flex-direction: column; /* Coloca los elementos uno encima del otro */
+  margin-right: 200px;
+  align-items: flex-start;
+  display: flex;
+  
+}
+
+.language-container a {
+  text-decoration: none;
+  color: #ededed;
+  display: flex; /* Utiliza flexbox para alinear los elementos en fila */
+  align-items: center; /* Alinea verticalmente los elementos dentro del enlace */
+}
+.language-container .le {
+  margin-right: 5px; /* Espaciado horizontal entre los enlaces */
+}
+/* Otros estilos de la página */
+/* ... */
+
+/* Estilos para el footer */
+footer {
+  background-color: #043B56;
+  color: white;
+  padding: 20px 0;
+}
+
+/* Estilos para las columnas del footer */
+footer .col {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los enlaces del footer */
+footer a {
+  color: white;
+}
+
+/* Estilos para el enlace "Back to top" */
+footer .float-end a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos para el enlace "Back to top" al pasar el mouse (opcional) */
+footer .float-end a:hover {
+  text-decoration: underline;
+}
+
+.rating {
+  color: #FFD700; /* Color amarillo para las estrellas */
+  font-size: 24px; /* Tamaño de las estrellas */
+}
+
+
