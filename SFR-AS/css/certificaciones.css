@@ -1,0 +1,18 @@
+/* Estilos personalizados para el botón */
+.custom-btn {
+    background-color: #308FBE;
+    border-color: #308FBE;
+    color: white;
+    font-weight: bold;
+}
+
+.custom-btn:hover {
+    background-color: #206b9e;
+    border-color: #206b9e;
+}
+
+@media (max-width: 768px) {
+    .custom-btn {
+        font-size: 14px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+}

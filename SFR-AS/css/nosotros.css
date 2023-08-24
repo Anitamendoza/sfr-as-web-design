@@ -52,3 +52,83 @@
 .bg-valores {
     background-color: #06719A;
 }
+
+.team-member-img {
+  width: 100px; /* Ancho deseado */
+  height: 100px; /* Alto deseado */
+  object-fit: cover; /* Ajustar imagen manteniendo la proporción y cubriendo el espacio */
+}
+img {
+  max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
+  height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+/* Estilo para los cuadros de valores */
+.valor-item {
+  background-color: #043B56; /* Cambia el color de fondo */
+  padding: 50px; /* Ajusta el espaciado interno */
+  text-align: center; /* Centra el contenido */
+  border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+/* Estilo para los iconos */
+.valor-item i {
+  font-size: 36px; /* Ajusta el tamaño del icono */
+  margin-bottom: 10px; /* Agrega un espacio debajo del icono */
+}
+
+/* Estilo para los títulos de los valores */
+.valor-item h4 {
+  font-size: 24px; /* Ajusta el tamaño del título */
+  margin-bottom: 0; /* Elimina el margen inferior del título */
+}
+
+/* Cambia el color del texto */
+.valor-item h4, .valor-item p {
+  color: white;
+}
+.bg-custom-transparent {
+  background-image: url('../img/fondo.avif'); /* Ruta de tu imagen de fondo */
+  background-color: rgba(255, 255, 255, 0.8); /* Color de fondo semi-transparente */
+  background-blend-mode: overlay; /* Mezcla de fondo */
+}
+#historia .card {
+  border: 2px solid #043B56;
+}
+
+/* Estilo para el texto dentro de la tarjeta */
+#historia .card-title,
+#historia .card-text {
+  color: #043B56; /* Color del texto */
+}
+/* Estilo para la imagen */
+.card-img-top {
+  display: block;
+  margin: 0 auto; /* Centra horizontalmente */
+}
+/* Estilo para el texto dentro de la tarjeta */
+.card-body {
+  font-size: 18px; /* Tamaño de fuente más pequeño */
+}
+
+.card-title,
+.card-text {
+  font-size: 18px; /* Tamaño de fuente más pequeño */
+}
+
+.square-box {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.square-box:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.img-fluid1 {
+  max-width: 100px; /* Ajusta el tamaño según tus preferencias */
+  height: auto;
+}
+
+

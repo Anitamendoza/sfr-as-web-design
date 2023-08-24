@@ -1,0 +1,70 @@
+.g-recaptcha {
+    margin-bottom: 8px; 
+}
+.form-messages {
+	width: 60%; 
+  }
+
+/* Estilo general para mensajes de éxito y error del formulario de contacto */
+.error-message {
+	padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0;
+	background-color: #F9D5D5;
+    border-color: #F55959;
+    color: #AD0000;
+	max-width: 60%; 
+    box-sizing: border-box; 
+    overflow-wrap: break-word; 
+	text-align: center; 
+	height: calc(100% + 20px); 
+}
+
+/* Estilo específico para mensajes de éxito */
+.success-message {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-color: #87FC91;
+	border-radius: 0;
+	background-color: #DBFFCA;
+	color: #252378;
+	max-width: 60%; 
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+	font-weight: bold; 
+	text-align: center; 
+	height: calc(100% + 20px); 
+}
+.error-messages{
+    border-radius: 0;
+	color: #AD0000;
+}
+.form-field {
+	margin-bottom: 8px;
+}
+
+/* Estilos para el ícono giratorio de carga */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-icon-button {
+    display: none;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border: 2px solid transparent;
+    border-top-color: #333;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Estilos para el contenedor giratorio*/
+.loading-container-button {
+    display: flex;
+    align-items: center;
+}

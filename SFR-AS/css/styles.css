@@ -165,3 +165,63 @@ footer .float-end a:hover {
 }
 
 
+/* Estilo para el contenido del pie de página */
+.footer {
+  font-size: 14px; /* Tamaño de letra más pequeño */
+}
+
+:root {
+
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+
+}
+
+
+
+
+a:hover {
+  color: #84d0f6;
+}
+.list-unstyled {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo para el contenedor de la lista */
+.list-container {
+  text-align:left; /* Alinea los elementos a la derecha */
+}
+
+/* Estilo para cada elemento de la lista */
+.list-item {
+  font-size: 12px; /* Tamaño de letra más pequeño */
+  margin: 0; /* Elimina los márgenes */
+}
+
+/* Estilo para los enlaces dentro de los elementos de la lista */
+.list-link {
+  text-decoration: none; /* Sin subrayado de enlace */
+  color: #f5f2f2; /* Color de texto */
+}
+
+/* Estilo para el icono de la flecha */
+.list-link i {
+  margin-left: 5px; /* Espacio entre el icono y el texto */
+}
+a {
+  text-decoration: none;
+}
+

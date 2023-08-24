@@ -1,0 +1,188 @@
+/* Estilos para la sección "NOSOTROS" */
+ 
+.header-nosotros {
+    background-color: #06719A;
+    color: #fff;
+    padding: 5rem 0; /* Ajusta el padding vertical según tus preferencias */
+    height: 30vh; /* Ajusta la altura del header según tus preferencias */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .nosotros-container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px; /* Ajusta el margen superior según tus preferencias */
+
+      
+  }
+  .text-uppercase {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 20px; /* Espacio entre el título y la imagen */
+  }
+  
+  .nosotros-image {
+    width: 200px; /* Ajusta el tamaño de la imagen según lo necesites */
+    height: auto;
+  }
+  
+/* Estilos para hacer el header responsive */
+@media (max-width: 768px) {
+    .header-nosotros {
+      padding: 30px 0; /* Ajusta el padding para pantallas pequeñas */
+      min-height: 150px; /* Ajusta la altura mínima para pantallas pequeñas */
+    }
+    
+    .text-uppercase {
+      font-size: 1.5rem; /* Ajusta el tamaño del texto para pantallas pequeñas */
+    }
+    
+    .nosotros-image {
+      width: 80px; /* Ajusta el tamaño de la imagen para pantallas pequeñas */
+    }
+  }
+
+  .bg-custom {
+    background-color: #308FBE;
+}
+.bg-valores {
+    background-color: #06719A;
+}
+
+/* Estilo para el contenedor de los logos */
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px; /* Ancho máximo del contenedor de logos */
+    margin: 0 auto 20px; /* Espaciado inferior */
+  }
+  
+  /* Estilo para las imágenes de los logos */
+  .logo-container img {
+    width: 100px; /* Ancho deseado para las imágenes */
+    height: auto;
+    margin: 5px; /* Espacio entre las imágenes */
+  }
+  
+ /* Estilo para las listas sin estilos */
+.list-unstyled {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilo para el contenedor de la lista */
+  .list-container {
+    text-align:left; /* Alinea los elementos a la derecha */
+  }
+  
+  /* Estilo para cada elemento de la lista */
+  .list-item {
+    font-size: 12px; /* Tamaño de letra más pequeño */
+    margin: 0; /* Elimina los márgenes */
+  }
+  
+  /* Estilo para los enlaces dentro de los elementos de la lista */
+  .list-link {
+    text-decoration: none; /* Sin subrayado de enlace */
+    color: #f5f2f2; /* Color de texto */
+  }
+  
+  /* Estilo para el icono de la flecha */
+  .list-link i {
+    margin-left: 5px; /* Espacio entre el icono y el texto */
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  /* Estilo para los enlaces cuando se les pasa el mouse por encima */
+  .valor-item {
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+    padding: 20px; /* Espacio interno del cuadro */
+  }
+  .image-container img {
+    width: 140px; /* Ancho deseado para la imagen */
+    height: 140px; /* Altura deseada para la imagen */
+    object-fit: cover; /* Ajusta la imagen manteniendo su proporción y cubriendo el área */
+  }
+  .team-member-img {
+    width: 100px; /* Ancho deseado */
+    height: 100px; /* Alto deseado */
+    object-fit: cover; /* Ajustar imagen manteniendo la proporción y cubriendo el espacio */
+  }
+  .bg-info1 {
+    background-color: #2eaded;
+}
+
+/* Estilo para los cuadros de valores */
+.valor-item {
+    background-color: #043B56; /* Cambia el color de fondo */
+    padding: 50px; /* Ajusta el espaciado interno */
+    text-align: center; /* Centra el contenido */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+/* Estilo para los iconos */
+.valor-item i {
+    font-size: 36px; /* Ajusta el tamaño del icono */
+    margin-bottom: 10px; /* Agrega un espacio debajo del icono */
+}
+
+/* Estilo para los títulos de los valores */
+.valor-item h4 {
+    font-size: 24px; /* Ajusta el tamaño del título */
+    margin-bottom: 0; /* Elimina el margen inferior del título */
+}
+
+/* Cambia el color del texto */
+.valor-item h4, .valor-item p {
+    color: white;
+}
+/* Reglas de diseño responsivo */
+.custom-btn {
+  color: #043B56;
+  border-color: #043B56;
+}
+
+.custom-btn:hover {
+  background-color: #043B56;
+  color: white;
+}
+.fw-bolder {
+  color: #043B56;
+}
+.carrusel {
+  margin-top: 20px; /* Ajusta este valor según tus necesidades */
+}
+.with-border {
+  border: 1px solid #ffffff; /* Color del marco */
+  padding: 20px; /* Espacio interno dentro del marco */
+  margin-bottom: 20px; /* Espacio entre las secciones */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.logo-container img {
+  max-width: 100px; /* Tamaño máximo de los logos */
+  height: auto;
+}
+.same-size-image {
+  max-width: 100%;
+  height: auto; /* Esto mantiene la proporción original de la imagen */
+  height: 265px; /* Establece la misma altura para todas las imágenes */
+}
+

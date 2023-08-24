@@ -1,0 +1,22 @@
+/* Reglas de diseño responsivo */
+.custom-btn {
+    color: #043B56;
+    border-color: #043B56;
+  }
+  
+  .custom-btn:hover {
+    background-color: #043B56;
+    color: white;
+  }
+  .fw-bolder {
+    color: #043B56;
+  }
+  .bg-custom-blue{
+    background-color: #308FBE;
+  }
+  .same-size-image {
+    max-width: 100%;
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+    height: 300px; /* Establece la misma altura para todas las imágenes */
+  }
+  

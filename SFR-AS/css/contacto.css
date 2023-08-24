@@ -11,6 +11,11 @@
     align-items: center;
   }
   
+  .header-nosotros {
+    /* Tus estilos existentes aquí */
+    margin-bottom: 20px; /* Espacio en la parte inferior del encabezado */
+  }
+  
   
   .nosotros-container {
     display: flex;
@@ -25,10 +30,7 @@
     margin-right: 20px; /* Espacio entre el título y la imagen */
   }
   
-  .nosotros-image {
-    width: 200px; /* Ajusta el tamaño de la imagen según lo necesites */
-    height: auto;
-  }
+
   
 /* Estilos para hacer el header responsive */
 @media (max-width: 768px) {
@@ -61,7 +63,7 @@
 
 /* Estilo para los campos de entrada */
 .form-control {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(250, 250, 250, 0.904);
   border: none;
 }
 
@@ -69,4 +71,7 @@
 .btn-primary {
   background-color: #043B56; /* Cambiamos el color de fondo */
   border: none;
+}
+.white-label {
+  color: white;
 }

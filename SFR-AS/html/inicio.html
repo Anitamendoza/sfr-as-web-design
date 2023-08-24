@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="es" data-bs-theme="auto">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +14,8 @@
         <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
 
         <!-- Custom styles for this template -->
         <link href="../css/carousel.css" rel="stylesheet">
@@ -21,17 +23,19 @@
         <link href="../css/carousel.rtl.css" rel="stylesheet">
         <link href="../css/navbar.css" rel="stylesheet">
         <link href="../css/whapsap.css" rel="stylesheet">
+        <link href="../css/inicio.css" rel="stylesheet">
+        <link href="../css/servicio.css" rel="stylesheet">
     </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top " id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mainNav">
       <div class="logo">
         <img src="../img/logo1.png" alt="Logo de la Empresa">
       </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <div class="collapse navbar-collapse " id="navbarCollapse">
+          <ul class="navbar-nav ml-auto mb-2 mb-md-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="../html/inicio.html">INICIO</a>
               </li>
@@ -52,17 +56,12 @@
               </li>
             </ul>
           <div class="language-container">
-            <a class="le" href="#">ESPAÑOL <img src="../img/spain.png" alt="len" style="width: 50px; height: 38px; margin-left: 5px;"></a>
-            <a class="le" href="#">INGLÉS <img src="../img/england.png" alt="len" style="width: 50px; height: 38px; margin-left: 20px;"></a>
+            <a class="le" href="../html/inicio.html">ESPAÑOL <img src="../img/spain.png" alt="len" style="width: 50px; height: 38px; margin-left: 5px;"></a>
+            <a class="le" href="../html/home.html">INGLÉS <img src="../img/england.png" alt="len" style="width: 50px; height: 38px; margin-left: 20px;"></a>
           </div>
         </div>
       </div>
     </nav>
-
-
-
-<main>
-
   <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -71,31 +70,29 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="../img/servicios/carrusel1.jpg" alt="Descripción de la imagen">
+
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Reparación de Motores</h1>
-            <p><a class="btn btn-lg btn-primary" href="#">Ver servicio</a></p>
+            <h1>SFR-AS Mantenimiento</h1>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="../img/servicios/carrusel2.jpg" alt="Descripción de la imagen">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            <h1>Servicios</h1>
+            <p></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="../img/servicios/carrusel3.jpg" alt="Descripción de la imagen">
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <h1>Taller</h1>
+            <p></p>
           </div>
         </div>
       </div>
@@ -110,151 +107,292 @@
     </button>
   </div>
 
+  <section class="py-1">
+    <h1 class="masthead-heading text-uppercase mb-0 text-center">SERVICIOS</h1>
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top same-size-image" src="../img/servicios/servicio1.jpeg" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Inspección, Mantenimiento, Reparación de aeronaves </h5>
 
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
+                        </div>
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                      </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto custom-btn" href="../html/servicio01.html">Ver servicio</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                  
+                    <!-- Product image-->
+                    <img class="card-img-top same-size-image" src="../img/servicios/servicio2.jpg" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Inspección y overhaul de hélices </h5>
+                            <!-- Product reviews-->
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                            <!-- Product price-->
+                           
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto custom-btn" href="../html/servicio02.html">Ver servicio</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top same-size-image" src="../img/servicios/servicio3.jpg" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder"> Inspección y overhaul de motores</h5>
+                           
+                        </div>
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                      </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto custom-btn" href="../html/servicio03.html">Ver servicio</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top same-size-image" src="../img/servicios/servicio4.jpg" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Inspección y overhaul de Started, Carburador y Magnetos</h5>
+                            <!-- Product reviews-->
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto custom-btn" href="../html/servicio04.html">Ver servicio</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top same-size-image" src="../img/servicios/servicio5.jpg" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Análisis de vibración y balance dinámico </h5>
+                            <!-- Product price-->
+                          
+                        </div>
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                      </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto custom-btn" href="../html/servicio05.html">Ver servicio</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top same-size-image" src="../img/servicios/servicio6.jpg" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Inspecciones boroscopicas </h5>
+                           
+                        </div>
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                          <div class="bi-star-fill"></div>
+                      </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto custom-btn" href="../html/servicio06.html">Ver servicio</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
 
-  <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-   
-      <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-          <h4 class="fw-normal">Inspección, Mantenimiento, Reparación de aeronaves</h4>
-        <div class="rating d-flex justify-content-center">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
+                    <!-- Product image-->
+                    <img class="card-img-top same-size-image" src="../img/servicios/servicio7.jpg" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder"> Pruebas no destructivas  </h5>
+                            <!-- Product reviews-->
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto custom-btn" href="../html/servicio07.html">Ver servicio</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card h-100">
+                
+                  <!-- Product image-->
+                  <img class="card-img-top same-size-image" src="../img/servicios/servicio8.jpg" alt="..." />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                      <div class="text-center">
+                          <!-- Product name-->
+                          <h5 class="fw-bolder">Venta de repuestos y/o componentes </h5>
+                          <!-- Product reviews-->
+                          <div class="d-flex justify-content-center small text-warning mb-2">
+                              <div class="bi-star-fill"></div>
+                              <div class="bi-star-fill"></div>
+                              <div class="bi-star-fill"></div>
+                              <div class="bi-star-fill"></div>
+                              <div class="bi-star-fill"></div>
+                          </div>
+                          <!-- Product price-->
+                         
+                      </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto custom-btn" href="../html/servicio08.html">Ver servicio</a></div>
+                  </div>
+              </div>
+          </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top same-size-image" src="../img/servicios/servicio9.jpg" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Asesoría técnica</h5>
+                            <!-- Product reviews-->
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+              
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto custom-btn" href="../html/servicio09.html">Ver servicio</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-          <h4 class="fw-normal">Inspección y overhaul de hélices </h4>
-        <div class="rating d-flex justify-content-center">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-        </div>
-        <br>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-          <h4 class="fw-normal">Inspección y overhaul de motores</h4>
-        <div class="rating d-flex justify-content-center">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-        </div>
-        <br>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-    <div class="row">
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h4 class="fw-normal">Inspección y overhaul de Started, Carburador y Magnetos</h4>
-      <div class="rating d-flex justify-content-center">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <br>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h4 class="fw-normal">Análisis de vibración y balance dinámico </h4>
-      <div class="rating d-flex justify-content-center">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <br>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h4 class="fw-normal">Inspecciones boroscopicas </h4>
-      <div class="rating d-flex justify-content-center">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <br>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-  </div><!-- /.row -->
-  <div class="row">
-    <div class="col-lg-4">
-      <svg class="bd-placeholder-img " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-      <h4 class="fw-normal">Pruebas no destructivas</h4>
-    <div class="rating d-flex justify-content-center">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
     </div>
-    <br>
-      <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-      <svg class="bd-placeholder-img " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-      <h4 class="fw-normal">Venta de repuestos y/o componentes </h4>
-    <div class="rating d-flex justify-content-center">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </div>
-    <br>
-      <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-      <svg class="bd-placeholder-img " width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-      <h4 class="fw-normal">Asesoría técnica</h4>
-    <div class="rating d-flex justify-content-center">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </div>
-    <br>
-      <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-</div><!-- /.row -->
-
-
+</section>
 
 </main>
+<section class="page-section bg-custom text-white mb-0" id="about">
+  <div class="container d-flex align-items-center flex-column">
+    <h2 class="masthead-heading text-uppercase mb-9" style="margin-top: 40px;">SFR AVIATION SOLUTION S.A.C. & OMA-056</h2>
+    <div class="row">
+      <div class="col-lg-12 with-border">
+        <p class="lead">Somos una empresa peruana dedicada a elevar el estándar en soluciones aeronáuticas. Con compromiso inquebrantable hacia la calidad y seguridad, nuestro equipo altamente capacitado ofrece servicios excepcionales respaldados por suscripciones a los principales fabricantes. Poseemos el Certificado de Organización de Mantenimiento Aprobada (OMA) N° 056 de la DGAC, asegurando el cumplimiento y la excelencia en cada proyecto. 
+          <br> </p><p class="lead text-center" >¡Bienvenidos a la experiencia SFR, donde la aeronáutica se encuentra con la excelencia!</p>
+      </div>
+      <div class="col-lg-6 with-border">
+        <h6 class="text-center ">PROVEEDORES</h6>
+        <div class="logo-container ">
+          <img src="../img/cessna.png" alt="Logo de Proveedor 1">
+          <img src="../img/hartzell.png" alt="Logo de Proveedor 2">
+          <img src="../img/mccauley-logo-vector.png" alt="Logo de Proveedor 3">
+          <img src="../img/Lycoming-Logo.png" alt="Logo de Proveedor 4">
+          <img src="../img/continental-aerospace-technologies.png" alt="Logo de Proveedor 5">
+ 
+        </div>
+      </div>
+      <div class="col-lg-6 with-border">
+        <h6 class="text-center ">CLIENTES</h6>
+        <div class="logo-container ">
+          <img src="../img/hori.png" alt="Logo de Cliente 1">
+          <img src="../img/logo-blue-press-big.png" alt="Logo de Cliente 2">
+          <img src="../img/master.png" alt="Logo de Cliente 3">
+          <img src="../img/logo+espac+calado.png" alt="Logo de Cliente 4">
+          <img src="../img/airmajoro.com.jpg" alt="Logo de Cliente 5">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   <!-- FOOTER -->
   <footer class="footer text-center">
     <div class="container">
       <div class="row">
         <!-- Footer Location-->
         <div class="col-lg-3 mb-5 mb-lg-0" id="emailLink">
-          <i class="fas fa-fw fa-envelope"></i> Escríbenos
-          <p class="lead mb-0">
+          <i class="fas fa-fw fa-envelope"></i>
+          <h6>  Escríbenos</h6>
+          <p class="">
             sfr.aviationsolution@gmail.com
           </p>
         </div>
@@ -270,26 +408,39 @@
           });
         </script>
   
+  <div class="col-lg-3 mb-5 mb-lg-0" id="llamanosContainer">
+    <i class="fas fa-fw fa-phone"></i>
+    <h6>Llámanos</h6>
+    <p>
+        <i class="fas fa-fw fa-phone" href="tel:+51957584402"></i> Teléfono:+51 957 584 402<br>
+        <i class="fas fa-fw fa-phone" href="tel:+51923444418"></i> Teléfono:+51 923 444 418<br>
+        <i class="fas fa-fw fa-phone" href="tel:+51970400492"></i> Teléfono:+51 970 400 492
+    </p>
+    <script>
+      // Obtenemos el elemento con el ID "llamanosContainer"
+      const llamanosContainer = document.getElementById('llamanosContainer');
+      // Agregamos un evento de clic al enlace
+      llamanosContainer.addEventListener('click', function() {
+            // Redirigimos al cliente de correo electrónico predeterminado con la dirección de correo electrónico
+            window.location.href = 'tel:+51957584402';
+          });
+    </script> 
+</div>
+
         <div class="col-lg-3 mb-5 mb-lg-0">
-          <i class="fas fa-fw fa-phone"></i> Llámanos
-          <p class="lead mb-0">
-            Rpm. 997586335 / 957584402 
-            <br />
-            Rpm: *6918957
+          <i class="fas fa-fw fa-clock"></i>
+          <h6>Horario de Atención</h6>
+          <p>
+              Lunes a Viernes<br>
+              9:00 am a 12:00 pm<br>
+              2:00 pm a 6:00 pm
           </p>
-        </div>
-        <div class="col-lg-3 mb-5 mb-lg-0">
-          <i class="fas fa-fw fa-clock"></i> Horario de Atención
-          <p class="lead mb-0">
-            9:00 am a 12:00 mm 
-  
-            <br />
-            2:00 pm a 6:00 pm
-          </p>
-        </div>
+      </div>
+      
         <div class="col-lg-3 mb-5 mb-lg-0" id="direccionLink">
-          <i class="fas fa-fw fa-map-marker-alt"></i> Dirección
-          <p class="lead mb-0">
+          <i class="fas fa-fw fa-map-marker-alt"></i> 
+          <h6>Dirección</h6>
+          <p>
             Urb. San Antonio de Carapongo Mz. P2 Lote. 01 Lurigancho - Chosica
           </p>
         </div>
@@ -312,37 +463,73 @@
       <div class="row">
         <!-- Footer Location-->
         <div class="col-lg-3 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">DATOS DE CONTACTO</h4>
-          <p class="lead mb-0">
-            <i class="fas fa-envelope"></i> Correo: <a href="mailto:sfr.aviationsolution@gmail.com">sfr.aviationsolution@gmail.com</a><br>
-            <i class="fas fa-phone-alt"></i> Teléfono: <a href="tel:+51923444418">+51 923 444 418</a><br>
-            <i class="fab fa-whatsapp"></i> Whatsapp: <a href="https://wa.me/51957584402">+51 957 584 402</a><br>
-            <i class="fas fa-map-marker-alt"></i> Dirección:<br>
-            Urb. San Antonio de Carapongo Mz. P2 Lote. 01 Lurigancho - Chosica
+          <h10 class=" mb-4">DATOS DE CONTACTO</h10>
+          <p class="">
+            <i class="fas fa-envelope"></i> Correo: <a href="mailto:sfr.aviationsolution@gmail.com" target="_blank">sfr.aviationsolution@gmail.com</a><br>
+            <i class="fas fa-phone-alt"></i> Teléfono: <a href="tel:+51923444418" target="_blank">+51 923 444 418</a><br>
+            <i class="fab fa-whatsapp"></i> Whatsapp: <a href="https://wa.me/51957584402" target="_blank">+51 957 584 402</a><br>
+            <i class="fas fa-map-marker-alt"></i> Dirección:<a href="https://goo.gl/maps/DqhxSTMuBvjt8khQ6" target="_blank"> Urb. San Antonio de Carapongo Mz. P2 Lote. 01 Lurigancho - Chosica</a>
+           
           </p>
           </p>
         </div>
         <!-- Footer Social Icons-->
-        <div class="col-lg-3 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">SERVICIOS</h4>
+        <div class="col-lg-3 mb-5 mb-lg-0 ">
+          <h10 class="mb-4">SERVICIOS</h10>
+          <div class=" list-container">
+          
+            <i class="fas fa-chevron-right"></i> <a class="list-link" aria-current="page" href="../html/servicio01.html">Inspección, Mantenimiento, Reparación de aeronaves</a><br>
+          
+            <i class="fas fa-chevron-right"></i> <a class="list-link" href="../html/servicio02.html">Inspección y overhaul de hélices </a><br>
+          
+            <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/servicio03.html">Inspección y overhaul de motores</a><br>
+      
+            <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/servicio04.html">Inspección y overhaul de Started, Carburador y Magnetos</a><br>
+          
+            <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/servicio05.html">Análisis de vibración y balance dinámico </a><br>
+          
+            <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/servicio06.html">Inspecciones boroscopicas</a><br>
+
+            <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/servicio07.html">Pruebas no destructivas</a><br>
+        
+            <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/servicio08.html">Venta de repuestos y/o componentes </a><br>
+            <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/servicio09.html">Asesoría técnica </a><br>
+          </ul>
         </div>
+      </div>
         <!-- Footer About Text-->
         <div class="col-lg-3 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">SITIO WEB</h4>
-          <p class="lead mb-0">
-            Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>
-            .
-          </p>
+          <h6 class=" mb-4">SITIO WEB</h6>
+          <ul class="list-unstyled">
+              <i class="fas fa-chevron-right"></i><a class="list-link" aria-current="page" href="../html/inicio.html">INICIO</a><br>
+              <i class="fas fa-chevron-right"></i> <a class="list-link" href="../html/nosotros.html">NOSOTROS</a><br>
+
+              <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/servicios.html">SERVICIOS</a><br>
+          
+              <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/certificaciones.html">CERTIFICACIONES</a><br>
+            
+              <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/taller.html">TALLER</a><br>
+           
+              <i class="fas fa-chevron-right"></i> <a class="list-link" aria-disabled="true" href="../html/contacto.html">CONTACTO</a><br>
+       
+          </ul>
         </div>
+        
+        
+        
         <!-- Empty Column (For Spacing) -->
         <div class="col-lg-3 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">NUESTRAS REDES</h4>
+          <h6 class="mb-4">NUESTRAS REDES</h6>
           <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/AviationSolution" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter" target="_blank"></i></a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in" target="_blank"></i></a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble" target="_blank"></i></a>
-  
+          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/channel/UCxitItEX3vMMyLI2sfDsmXA" target="_blank">
+            <i class="fab fa-fw fa-youtube"></i>
+          </a>
+                    <br>
+          <br>
+          <br>
+          <img src="../img/logo1.png" width="80%" height="" alt="Logo de la empresa">
         </div>
       </div>
     </div>
@@ -356,5 +543,4 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
-    </body>
 </html>

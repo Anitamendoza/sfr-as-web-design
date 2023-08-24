@@ -1,0 +1,39 @@
+/* Estilos para la sección con imagen de fondo y fondo semitransparente */
+.bg-custom-transparent {
+  background-image: url('../img/servicios/fondode3.png'); /* Ruta de tu imagen de fondo */
+  background-color: rgba(255, 255, 255, 0.8); /* Color de fondo semi-transparente */
+  background-blend-mode: overlay; /* Mezcla de fondo */
+  }
+  .bg-custom {
+    background-color: #06719A; /* Color de fondo semi-transparente */
+    background-blend-mode: overlay; /* Mezcla de fondo */
+}
+
+  
+  /* Opcional: Establecer el color de texto */
+  .fondo .text-dark {
+    color: #f3eeee; /* Color del texto en esta sección */
+  }
+   /* Cambia el fondo del botón a blanco */
+.custom-btn1 {
+  background-color: #ffffff; /* Color de fondo blanco */
+  color:#043B56; /* Color de texto negro (puedes cambiarlo según tus preferencias) */
+  border-color: #043B56; /* Color del borde (puedes cambiarlo según tus preferencias) */
+}
+
+/* Cambia el color del botón al pasar el ratón por encima (opcional) */
+.custom-btn1:hover {
+  background-color: #043B56; /* Color de fondo negro al pasar el ratón por encima (puedes cambiarlo según tus preferencias) */
+  color: #ffffff; /* Color de texto blanco al pasar el ratón por encima (puedes cambiarlo según tus preferencias) */
+}
+.bg-light1 {
+  background-color: #06719A;
+  color: #FFFFFF; /* Color de texto blanco */
+
+  /* Otros estilos que desees aplicar */
+}
+.same-size-image {
+  max-width: 100%;
+  height: auto; /* Esto mantiene la proporción original de la imagen */
+  height: 265px; /* Establece la misma altura para todas las imágenes */
+}
