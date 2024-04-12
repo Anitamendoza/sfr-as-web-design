@@ -186,3 +186,10 @@
   height: 265px; /* Establece la misma altura para todas las imágenes */
 }
 
+.carousel {
+  margin-bottom: -1px; /* Ajustar el valor según sea necesario */
+}
+
+.page-section {
+  padding-top: 0;
+}

@@ -78,44 +78,61 @@
           </div>
           <div class="col-lg-6 col-md-12 d-flex justify-content-center mb-4">
               <div class="form-container">
-                  <form action="../php/enviacorreo.php" method="POST">
-                      <h1 class="masthead-heading text-white text-uppercase mb-4">CONTACT FORM</h1>
-
-                      <div class="mb-3">
-                          <label for="nombre" class="white-label">Last Names and First Names</label>
-                          <input type="text" class="form-control" id="nombre" name="nombre" required>
-                      </div>
-                      <div class="mb-3">
-                          <label for="email" class="white-label">Email:</label>
-                          <input type="email" class="form-control" id="email" name="email" required>
-                      </div>
-                      <div class="mb-3">
-                          <label for="telefono" class="white-label">Phone:</label>
-                          <input type="tel" class="form-control" id="telefono" name="telefono" required>
-                      </div>
-                      <div class="mb-3">
-                          <label for="encontrado" class="white-label">How did you find us?</label>
-                          <select class="form-select" id="encontrado" name="encontrado" required>
-                              <option value="" disabled selected>Select an option</option>
-                              <option value="busqueda">Online Search</option>
-                              <option value="recomendacion">Friend Recommendation</option>
-                              <option value="redes">Social Media</option>
-                              <option value="redes">Events</option>
-                              <option value="otros">Others</option>
-                          </select>
-                      </div>
-                      <div class="mb-3">
-                          <label for="mensaje" class="white-label">Message:</label>
-                          <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Send</button>
-                  </form>
+                <form action="../php/enviacorreo.php" method="POST" class="contact-form">
+                  <h1 class="masthead-heading text-white text-uppercase text-center mb-4">CORRESPONDENCE FORM</h1>
+                  <div class="mb-3">
+                      <label for="nombre" class="white-label">Last Names and First Names</label>
+                      <input type="text" class="form-control custom-form-control" id="nombre" name="nombre" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="white-label">Email:</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="telefono" class="white-label">Phone:</label>
+                      <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="encontrado" class="white-label">How did you find us?</label>
+                      <select class="form-select" id="encontrado" name="encontrado" required>
+                          <option value="" disabled selected>Select an option</option>
+                          <option value="busqueda">Online Search</option>
+                          <option value="recomendacion">Friend Recommendation</option>
+                          <option value="redes">Social Media</option>
+                          <option value="redes">Events</option>
+                          <option value="otros">Others</option>
+                      </select>
+                  </div>
+                  <div class="mb-3">
+                      <label for="mensaje" class="white-label">Message:</label>
+                      <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send</button>
+              </form>
                   <script src="../js/script-contact.js"></script>
               </div>
           </div>
       </div>
   </div>
 </section>
+<style>
+  .contact-form {
+      max-width: 100%;
+  }
+
+  .contact-form .form-control,
+  .contact-form .form-select {
+      width: 100%;
+      max-width: 500px;
+  }
+
+  @media (max-width: 767px) {
+      .contact-form .form-control,
+      .contact-form .form-select {
+          max-width: 100%;
+      }
+  }
+</style>
 
   <!-- FOOTER -->
   <footer class="footer text-center">

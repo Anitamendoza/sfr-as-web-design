@@ -72,16 +72,14 @@
 
 <section class="page-section bg-white text-dark mb-4" id="historia">
   <div class="container">
-
       <div class="row">
           <div class="col-lg-6 col-md-12 d-flex justify-content-center mb-4">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.530460655179!2d-76.8769899!3d-12.006957300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c3b43d7a484b%3A0x257216b7f76dda6a!2sSFR%20AVIATION%20SOLUTION-OMA056!5e0!3m2!1ses-419!2spe!4v1691451360189!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="col-lg-6 col-md-12 d-flex justify-content-center mb-4">
               <div class="form-container">
-                  <form action="../php/enviacorreo.php" method="POST">
+                  <form action="../php/enviacorreo.php" method="POST" class="contact-form">
                       <h1 class="masthead-heading text-white text-uppercase mb-4">FORMULARIO DE CONTACTO</h1>
-
                       <div class="mb-3">
                           <label for="nombre" class="white-label">Apellidos y Nombres:</label>
                           <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -117,6 +115,22 @@
       </div>
   </div>
 </section>
+
+<style>
+  .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+  }
+
+  @media (max-width: 767px) {
+      .contact-form {
+          max-width: 100%;
+          padding: 0 15px;
+      }
+  }
+</style>
+
+
 
   <!-- FOOTER -->
   <footer class="footer text-center">
